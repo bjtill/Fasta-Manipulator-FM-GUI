@@ -45,11 +45,15 @@ DEPENDENCIES:
 Bash, yad, Zenity, seqkit, shuf 
 
 INSTALLATION:
+
 Linux/Ubuntu:
+
 This tool was built to work on Linux Ubuntu and tested on Ubuntu 20.04 and 22.04. Bash, Zenity and shuf should already be installed on these systems. Yad can be installed with sudo apt install. The same method can be used to install seqkit on Ubuntu 22.04.  For installation of seqkit on Ubuntu 20.04, follow the instructions here: https://bioinf.shenwei.me/seqkit/download/ .  Next, download the FM.sh file from this page and provide it permission to execute using chmod +x. Launch the program with ./ . 
+
 macOS: 
 
 This program has not been tested on macOS.  Attempts to install yad failed. Other dependencies can be installed with homebrew.  
 
 Windows:
+
 NOT TESTED. In theory you can install Linux bash shell on Windows (https://itsfoss.com/install-bash-on-windows/) and install the dependencies from the command line. If you try this and it works, please let me know. I don't have a Windows machine for testing.
